@@ -20,6 +20,7 @@ public class HelloServlet extends HttpServlet {
 		String responseString = BODY;
 		if (null != name)
 		{
+			// Add name to response
 			responseString += " " + name;
 		}
 		
